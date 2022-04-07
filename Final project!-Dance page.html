@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFROBEAT DANCE</title>
+    <style>
+        h1{text-align: center;
+        color: #be03fc;
+        }
+
+        h2{text-align: center;
+        border: 5px solid #03dffc;
+        background-color: blueviolet;
+        border-radius: 10px;
+        padding:10px;
+        font-size: 30px;}
+
+        .Dance{display: block;
+        margin-top: 20px;
+        font-size: 25px;
+        text-decoration: none;}
+        .Dance:hover{
+            text-decoration: underline;
+        }
+
+        img{display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius:10px;
+        width: 400px;
+        }
+
+      p{
+          line-height: 1.5;
+      font-size: 25px;
+      font-weight: bolder;
+      margin:20px 10px;
+      
+      }
+      button{ display:block;
+          margin:0 auto;
+          font-size: 20px;
+          font-weight: bolder;
+          border-radius: 20px;
+        border:none;
+        padding: 10px 10px;
+        box-shadow: 5px 5px 10px rgba(0 , 0, 0 ,0.5) ;
+        transition: all 200ms ease-in-out;
+
+ }
+ button:hover{ color: #000000;
+ background-color:blueviolet;
+ cursor: pointer;
+
+ }
+ .top {max-width: 600px;
+ margin: 0 auto;
+ padding:50px;}
+
+ .bottom{text-align: center;}
+
+    
+        body{background-color:#a8324e;}
+    </style>
+</head>
+
+<body>
+    <div class="top">
+    <h1>
+        <strong>
+        Afrobeat Dance is enjoyment !!
+        </strong>
+    </h1>
+    <h2>
+        <em>
+        Energize yourself with Afrobeat Dance 💃
+        </em>
+        
+    </h2>
+    <img src="https://media.wonderlandmagazine.com/uploads/2020/05/Incredible-Zigi.jpg" alt="   Dance " 
+    />
+    <P>
+        <em>
+    Afrobeat is a music genre that blends West African musical styles with jazz, soul, funk and, in more contemporary
+    tracks, electronic music. These days you could say that Afrobeat is a mix of African music with Western-pop and the
+    dance moves that go along with it are so.
+    </em>
+    </P>
+    <h3>
+     <a href="https://www.youtube.com/watch?v=Vszpnz4XYws" target="_blank" class="Dance">
+            Learn famous Afrobeat moves
+    </a>
+     </h3>
+     <button>
+Register for Afrobeat Dance Classes 🤩
+     </button>
+     <p class="bottom">
+     This page was built by Oluwatoyin Sotimehin
+     </p>
+
+   </div> 
+   <script>
+       function register(){
+           let firstName = prompt("What is your name?");
+           let Surname=prompt("what is your surname?");
+           let moves=prompt("What type of dance moves do you know?");
+
+        if(firstName.length >0 && Surname.length>0){
+           alert("Thank you " + firstName +"! We can't wait to see your moves ! " + "😆");}
+        }
+       
+let registerButton=document.querySelector("button");
+registerButton.addEventListener("click",register);
+
+   </script>
+
+</body>
+</htmls>
